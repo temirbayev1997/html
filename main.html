@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Юлия Ламм</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo">
+        <h1>Юлия Ламм</h1>
+        <p>Международный поведенческий аналитик и супервизор (IBA, СВА-S)</p>
+    </header>
+    
+    <section id="consultation">
+        <button class="open-modal">Записаться на консультацию</button>
+    </section>
+    
+    <section id="certificates">
+        <h2>Ссылки на сертификаты:</h2>
+        <div class="certificate-links">
+            <button>Сертификат IBA</button>
+            <button>Сертификат CBA-S</button>
+        </div>
+    </section>
+    
+    <section id="protection">
+        <h3>Повышенный защитник ПСМ</h3>
+        <p>АКИ-специалист</p>
+        <p>Дополнительные данные...</p>
+    </section>
+    
+    <section id="supervision">
+        <h2>Супервизия для специалистов и родителей</h2>
+        <ul>
+            <li>Дополнительные опции...</li>
+        </ul>
+        <p>Стоимость: 3500.00 руб</p>
+        <button class="open-modal">Записаться на консультацию</button>
+    </section>
+    
+    <section id="reviews">
+        <h2>Отзывы:</h2>
+        <blockquote>
+            <p>Ваш отзыв...</p>
+        </blockquote>
+    </section>
+    
+    <footer>
+        <p>Контактная информация</p>
+    </footer>
+    
+    <!-- Модальное окно -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Записаться на консультацию</h2>
+            <form>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
